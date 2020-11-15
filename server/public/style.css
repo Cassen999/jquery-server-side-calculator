@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+#calculator {
+    display: inline;
+}
+
+#function-btns {
+    display: inline;
+}
+
+#final-btns {
+    display: inline;
+}
+
+#num-in1, #num-in2 {
+    border: 2px solid rgb(27, 94, 218);
+    border-radius: 5px;
+    height: 35px;
+}
+
+.result {
+    margin-top: 60px;
+    font-size: 25px;
+}

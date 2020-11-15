@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.min.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Server Side Calculator</h1><br>
+    </header>
+    <main>
+        <form id="calculator">
+            <input id="num-in1" type="number">
+            <div id="function-btns">
+                <button class="btn btn-primary" id="add-btn" type="button">+</button>
+                <button class="btn btn-primary" id="sub-btn" type="button">-</button>
+                <button class="btn btn-primary" id="mult-btn" type="button">*</button>
+                <button class="btn btn-primary" id="div-btn" type="button">/</button>
+            </div>
+            <input id="num-in2" type="number">
+            <div id="final-btns">
+                <button class="btn btn-primary" id="equal-btn" type="button">=</button>
+                <button class="btn btn-primary" id="clear-btn" type="button">C</button>
+            </div>
+        </form>
+        <div class="result">
+                <!--jquery-->
+            </div>
+            <div class="history"><br>
+                <h3>Equasion History:</h3>
+                <ul id="historyList">
+                    <!--jquery-->
+                </ul>
+            </div>
+    </main>
+    
+</body>
+</html>
